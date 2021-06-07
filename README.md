@@ -7,13 +7,13 @@ The Set class has three private data members:
 2. An integer value to store the capacity of the array which can be determined whencreating a new set object. The default value is 10 if the capacity is not specified.
 3. An integer value to store the number of items in the array.
 
-Constructor, copy constructor and destructor for the Set class are implemented with 2 extra member functions:
+## Constructor, copy constructor and destructor for the Set class are implemented with 2 extra member functions:
 ### addElement
 Add an element to the set object. If the element is already in the set object, then DONOT add it.
 ### removeElement
 Return false only if the element is not in the set object. Otherwise, remove that element from the set object and then return true.
 
-Following operators are overloaded:
+## Following operators are overloaded:
 ### operator+
 Return the union of the left set and the right set.
 ### operator-
